@@ -63,9 +63,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebApplication2\WebApplication2.csproj">
+    <ProjectReference Include="..\WebApplication2\WingtipToys.csproj">
       <Project>{1DC0ECF1-FEF3-45B2-A270-9C1F3A5D5601}</Project>
-      <Name>WebApplication2</Name>
+      <Name>WingtipToys</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
