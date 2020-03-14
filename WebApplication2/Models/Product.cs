@@ -10,6 +10,9 @@ namespace WingtipToys.Models
         [Required, StringLength(10000), Display(AutoGenerateField = true, Name = "Product Description"), DataType(DataType.MultilineText)]
         public string ProductName { get; set; }
 
+        [Required, StringLength(10000), Display(Name = "Product Description"), DataType(DataType.MultilineText)]
+        public string Description { get; set; }
+
         public string ImagePath { get; set; }
         [Display(Name = "Price")]
         public double? UnitPrice { get; set; }
